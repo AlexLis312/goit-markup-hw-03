@@ -17,16 +17,19 @@ body {
   letter-spacing: 0.03em;
 }
 h1 {
+  margin-top: 0;
+  margin-bottom: 30;
   color: var(--prime-white-color);
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 .section-title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -35,6 +38,8 @@ h1 {
   text-align: center;
 }
 .list {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 /* header */
@@ -85,6 +90,10 @@ h1 {
 
 /* hero */
 .button {
+  min-width: 216px;
+  border-radius: 4px;
+  padding: 10px 32px;
+
   color: var(--prime-white-color);
   background-color: var(--accent-color);
 
@@ -92,16 +101,20 @@ h1 {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  text-decoration: none;
   text-align: center;
 }
 
 .hero {
   background-color: var(--background-color);
+  text-align: center;
 }
 
 /* peculiarities */
 
 .peculiarities-title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
