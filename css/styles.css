@@ -168,6 +168,9 @@ h1 {
 .peculiarities {
   display: flex;
 }
+.peculiarities .item {
+  width: 270px;
+}
 .peculiarities .item:not(:last-child) {
   margin-right: 30px;
 }
